@@ -1,7 +1,50 @@
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+}
+
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-size: 72px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.hero {
+  background: #212121;
+  text-align: center;
+  color: white;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 18;
+  padding-top: 30px;
+}
+
+.btn-branding {
+  background: white;
+  border-radius: 50px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  padding: 18px 30px;
+  border: solid black;
 }
