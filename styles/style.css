@@ -48,3 +48,7 @@ h1 {
   padding: 18px 30px;
   border: solid black;
 }
+
+.full-page {
+  background-color: #212121;
+}
