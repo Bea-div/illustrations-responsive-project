@@ -52,3 +52,10 @@ h1 {
 .full-page {
   background-color: #212121;
 }
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px;
+}
