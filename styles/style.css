@@ -10,6 +10,8 @@ h1 {
   font-size: 72px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .hero {
@@ -25,6 +27,8 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .hero h2 {
@@ -32,6 +36,8 @@ h1 {
   font-weight: normal;
   font-size: 18;
   padding-top: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .btn-branding {
