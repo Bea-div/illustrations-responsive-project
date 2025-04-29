@@ -11,7 +11,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+    1px 1px 0 #726c6c;
 }
 
 .hero {
@@ -64,4 +64,26 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 40px 40px;
+}
+
+.about-full {
+  background-color: #212121;
+  color: white;
+}
+
+.about-header h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+
+.about-header p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: var(--heading-font-family);
+}
+
+.about-header h4 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+  color: #f65282;
 }
