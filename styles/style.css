@@ -14,6 +14,10 @@ h1 {
     1px 1px 0 #726c6c;
 }
 
+.contact-container {
+  margin-bottom: 95px;
+}
+
 .hero {
   background: #212121;
   text-align: center;
@@ -21,7 +25,7 @@ h1 {
   padding: 160px 20px;
 }
 
-.hero p {
+.hero first-page {
   font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: bold;
@@ -86,4 +90,31 @@ h1 {
   font-size: 18px;
   font-family: var(--heading-font-family);
   color: #f65282;
+}
+
+.contact-info {
+  font-size: 14px;
+  color: #f65282;
+}
+
+.logo-image {
+  max-width: 150px;
+}
+
+.nav {
+  padding: 25px 0;
+  background: #212121;
+  text-align: center;
+  color: white;
+}
+
+.nav li {
+  display: inline;
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-family: var(--heading-font-family);
+  font-size: 16px;
 }
