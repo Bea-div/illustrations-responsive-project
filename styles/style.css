@@ -97,24 +97,36 @@ h1 {
   color: #f65282;
 }
 
-.logo-image {
-  max-width: 150px;
-}
-
 .nav {
   padding: 25px 0;
-  background: #212121;
-  text-align: center;
+  background: #202020;
   color: white;
+  border-bottom: 0.5px solid black;
 }
 
 .nav li {
   display: inline;
   list-style: none;
+  margin-right: 20px;
+  line-height: 22px;
 }
 
 .nav li a {
   text-decoration: none;
   font-family: var(--heading-font-family);
   font-size: 16px;
+  color: white;
+}
+
+.nav a:hover,
+.nav li.active a {
+  color: #f65282;
+}
+
+.logo-container h2 {
+  margin-left: 65px;
+}
+
+.logo-container ul {
+  margin-right: 65px;
 }
