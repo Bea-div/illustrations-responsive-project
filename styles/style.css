@@ -130,3 +130,13 @@ h1 {
 .logo-container ul {
   margin-right: 65px;
 }
+
+footer h2 {
+  font-family: var(--heading-font-family);
+  font-size: 25px;
+}
+
+footer .social-links a {
+  margin: 0 15px;
+  color: white;
+}
