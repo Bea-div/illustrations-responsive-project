@@ -131,6 +131,12 @@ h1 {
   margin-right: 65px;
 }
 
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #282323;
+}
+
 footer h2 {
   font-family: var(--heading-font-family);
   font-size: 25px;
@@ -139,4 +145,8 @@ footer h2 {
 footer .social-links a {
   margin: 0 15px;
   color: white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
