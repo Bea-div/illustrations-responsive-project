@@ -150,3 +150,34 @@ footer .social-links a {
 html {
   scroll-behavior: smooth;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 780px) {
+  h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .btn-branding {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  .hero {
+    padding: 100px 15px;
+  }
+}
